@@ -1,0 +1,165 @@
+@media screen and (max-width: 1199px){
+	.banner_left h1 {
+		font-size: 90px;
+	}
+	.banner_left p {
+		width: 80%;
+	}
+	.banner_right img {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 991px){
+	.banner_left p {
+		width: 100%;
+	}
+	.banner_left h1 {
+		font-size: 72px;
+	}
+	.menu_right:hover .menu_text a h4, .menu_left:hover .menu_text a h4{
+		font-size: 14px;
+	}
+	.menu_right:hover .menu_text h2, .menu_left:hover .menu_text h2{
+		font-size: 16px;
+		margin-top: 10px
+	}
+	.our_slider h1{
+		font-size: 18px;
+		padding-top: 0;
+	}
+	.our_slider h3 {
+		font-size: 14px;
+	}
+	.our_slider p {
+		font-size: 11px;
+		padding: 0;
+	}
+	.carousel-indicators [data-bs-target] {
+		width: 5px;
+		height: 5px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.container{
+		width: auto
+	}
+	.logo {
+		width: 90%;
+		text-align: center;
+	}
+	.logo img {
+		width: 150px;
+		text-align: center;
+	}
+	.menu_bar{
+		width: 100%;
+	}
+	.menu_top span {
+		margin-left: -130px;
+	}
+	.menu_top {
+		text-align: center;
+		padding-top: 20px;
+		width: 85%
+	}
+	.mob_menu_icon{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.svg-inline--fa.fa-bars.mob_menu_icon {
+		float: right;
+		font-size: 20px;
+		cursor: pointer;
+		margin-top: -37px;
+	}
+	.svg-inline--fa.fa-bars.mob_menu_icon path{
+		color: #fff;
+	}
+	nav ul li {
+		display: block;
+		text-align: left;
+		margin-top: 10px;
+	}
+	.menu_top {
+		text-align: center;
+		padding-top: 20px;
+		width: 85%;
+	}
+	.banner_left {
+		text-align: center;
+	}
+	.banner_right {
+		padding-top: 10px;
+	}
+	.banner_right, .banner_left {
+		width: 100%;
+	}
+	.menu_right {
+		margin-top: 15px;
+	}
+	.m-md-20{
+		margin-top: 20px
+	}
+	/* carousel-indicators */
+	.carousel-indicators {
+		left: 0;
+	}
+	/* footer part */
+	.ft_right {
+		left: 0;
+	}
+	.c_right {
+		text-align: left;
+	}
+	.c_left {
+		width: 50%;
+		float: right;
+	}
+	.c_right ul {
+		padding-left: 0 !important;
+	}
+	.c_right ul li:first-child {
+		margin-left: 0 !important;
+	}
+	.copyright{
+		position: relative;
+	}
+	.c_left {
+		width: 100%;
+		float: right;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		top: 54%;
+	}
+	.banner_left h1 {
+		font-size: 48px;
+	}
+	.banner_left h3 {
+		font-size: 36px;
+	}
+	
+}
+@media screen and (max-width: 575px){
+	.menu_top img {
+		float: left;
+		margin-left: 40px;
+		width: 30px;
+	}
+	.menu_top span {
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 350px){
+	.menu_top img {
+		float: left;
+		margin-left: 40px;
+		width: 25px;
+	}
+	.menu_top span {
+		font-size: 10px;
+	}
+}
